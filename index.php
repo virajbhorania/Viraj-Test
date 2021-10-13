@@ -55,9 +55,8 @@ if(ISSET($file))
         }
         if($latency > $latencyMilli)
             $output = "Path not found.";
-        echo $output;die;
+        echo $output;
     }
-    var_dump($data);
 }
 else {
     echo "Please provide the file name.";
